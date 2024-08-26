@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.box-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.box{
+    width: 30%;
+    height: 95%;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.inputGrp{
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Label{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.inputcss{
+    width: 150px;
+    text-align: center;
+}
+
+.Btn-group{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.custom{
+    width: 100%;
+    height: 20%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
